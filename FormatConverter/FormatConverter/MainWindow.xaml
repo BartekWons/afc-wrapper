@@ -77,10 +77,11 @@
                 <Button Content="Choose audio file"
                         Margin="0,0,10,0"
                         Style="{StaticResource ButtonStyle}"
-                        Command="{Binding ChooseAudioFile}"/>
+                        Command="{Binding ChooseAudioFileCommand}"/>
                 <Button Content="Choose destination"
                         Margin="0,0,10,0"
-                        Style="{StaticResource ButtonStyle}"/>
+                        Style="{StaticResource ButtonStyle}"
+                        Command="{Binding ChooseDestinationPathCommand}"/>
                 <ComboBox Width="80"
                           ItemsSource="{Binding AvailableExtensions}"
                           VerticalContentAlignment="Center"
@@ -88,6 +89,7 @@
                           Margin="0,0,10,0"/>
                 <Button Content="Execute"
                         Margin="0,0,10,0"
+                        Command="{Binding ExecuteCommand}"
                         Style="{StaticResource ButtonStyle}"/>
             </StackPanel>
         </Grid>
