@@ -1,5 +1,5 @@
-# Audio-Format-Converter
-Ffmpeg wrapper allows convert audio files.
+# afc-wrapper
+Ffmpeg wrapper allows to convert audio files.
 
 ## Installation
 
